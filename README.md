@@ -40,7 +40,8 @@ Continue building out the project you have been working on for the previous Mini
 
 Find a person, company, or website that desperately needs a new or modernized website/backend. Offer to build it for them.
 
-> [!NOTE] This option may take more time and planning, but offers meaningful learning in client communication, requirements gathering, and professional delivery.
+> [!NOTE] 
+> This option may take more time and planning, but offers meaningful learning in client communication, requirements gathering, and professional delivery.
 
 ## Presentation Guidelines
 
