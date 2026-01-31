@@ -1,0 +1,12 @@
+{
+  "name": "mongodb-app-mini-project-3",
+  "version": "1.0.0",
+  "description": "mini-project-3",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node server.js"
+  },
+  "author": "amijshogan",
+  "license": "ISC"
+}
