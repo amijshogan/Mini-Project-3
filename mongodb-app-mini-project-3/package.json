@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "amijshogan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  }
 }

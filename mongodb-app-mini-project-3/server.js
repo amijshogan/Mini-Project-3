@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 require("dotenv").config();
+let dbConnect = require("./dbConnect");
 
 // parse requests of content-type - application/json
 app.use(express.json());
