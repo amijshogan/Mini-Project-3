@@ -4,6 +4,8 @@ require("dotenv").config();
 
 const app = express();
 
+const Book = require('./models/book'); // not sure if this is the correct location for this line atm
+
 // Middleware to parse JSON bodies
 app.use(express.json());
 
