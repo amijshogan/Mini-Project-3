@@ -1,10 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const http = require("http");
+const { Server } = require("socket.io");
 require("dotenv").config();
 
-const app = express();
+const app = express(); // not sure if this is the correct location for this line atm
 
-const Book = require('./models/book'); // not sure if this is the correct location for this line atm
+// Import the Router
+const { bookRouter } = require("../routes/bookRoutes.js"); // not sure if this is the correct location for this line atm
 
 // Middleware to parse JSON bodies
 app.use(express.json());
