@@ -2,10 +2,16 @@ const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+// Import the router
+const { bookRouter } = require("./routes/bookRoutes");
+
 const app = express();
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+
+// Mount the Book Routes
+app.use("/api/books", bookRouter);
 
 /**
  * Asynchronously connects to MongoDB using Mongoose.
