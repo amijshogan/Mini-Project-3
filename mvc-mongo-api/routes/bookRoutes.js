@@ -6,3 +6,8 @@ const router = express.Router();
 // Map HTTP methods to Controller function
 router.get("/, getBooks");
 router.post("/", createBooks);
+
+// Exports
+module.exports = {
+  bookRouter: router,
+};
