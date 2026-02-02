@@ -52,6 +52,7 @@ const updateBook = async (req, res) => {
   try {
     const { id } = req.params; // object that will hold all the url parameters -- /books/#
     const updates = req.body;
+    console.log(updates); // should be "null" or "undefined" since I'm not sending a body
     const book = await Book.findByIdAndUpdate(id, updates, { new: true });
     if (!book) {
       return res.status(404).json({ success: false, error: "Book not found" });
