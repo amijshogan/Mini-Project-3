@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 /**
  * User Schema
- * Defines the structure for User documents in MongoDB
+ * Defines the structure for Book documents in MongoDB
  */
 
 const bookSchema = new mongoose.Schema({
@@ -18,8 +18,7 @@ const bookSchema = new mongoose.Schema({
 
   year: {
     type: Number,
-    min: 1632,
-    max: 1674,
+    min: 1,
     required: [true, "Read the room. Year of publication is required. 📆"],
   },
 
