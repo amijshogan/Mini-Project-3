@@ -1,4 +1,4 @@
-const { Book } = require("..models/Book");
+const { Book } = require("../models/Book");
 
 /**
  * Get all BOOKS.
@@ -76,7 +76,7 @@ const deleteBook = async (req, res) => {
     if (!book) {
       return res.status(404).json({ success: false, error: "Book not found" });
     }
-    res.status(200).json({ success: true, message: book }); // deleted book/book deleted
+    res.status(200).json({ success: true, message: book }); // book deleted
   } catch (error) {
     res.status(500).json({ success: false, error: error.message });
   }

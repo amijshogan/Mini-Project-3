@@ -7,7 +7,8 @@ const { bookRouter } = require("./routes/bookRoutes");
 
 const app = express();
 
-
+// Create the HTTP server using the express app
+const server = http.createServer(app);
 // Middleware to parse JSON bodies
 app.use(express.json());
 
