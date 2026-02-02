@@ -1,5 +1,10 @@
 # Mini-Project #3: Database & Backend API Integration
 
+https://zoom.us/rec/play/vfT0W3tyFI0dU4PFBujPkHj_q21i3eVJn2iidGlLcIabvmeE286Ll1etcj3vd7EOtqBynx2VenFD5rq0._zeOj-zu4o_E6p9t?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&pwd=DLAZ8Ee_aULAf07zHgAAIAAAAI5JjIPs3Tz1_u0oyT68Tbgr7fnVt6wIuvdhigBu27JtBvB7H4LMl316SM8iLtS4PDAwMDAwNA&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2FqvzHvRvZ5AzTq_fJ9JsPXYakwZLbgtxDRS5A4ZHy9FCvBSPdxmRTaJX1OlxomVmS.XRZnHszHXh_ZmJia%3Fpwd%3DDLAZ8Ee_aULAf07zHgAAIAAAAI5JjIPs3Tz1_u0oyT68Tbgr7fnVt6wIuvdhigBu27JtBvB7H4LMl316SM8iLtS4PDAwMDAwNA
+
+jan 21 2026 class video 1:00 hour mark is around where my program starts fucking crashing
+going to just keep coding it and turn it in and say that my server keeps crashing and idk why :( but atleast turn it in
+
 ## Overview
 
 This project is designed to consolidate the material learned in **Modules 8 and 9** regarding the use of databases. The primary goal is to create a real-time database that functions by fetching data externally via an API.
