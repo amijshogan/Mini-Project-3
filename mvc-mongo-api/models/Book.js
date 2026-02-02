@@ -10,7 +10,7 @@ const bookSchema = new mongoose.Schema({
     type: String,
     required: [true, "Read the room. Title of text is required. 📖"],
   },
-  
+
   author: {
     type: String,
     required: [true, "Read the room. Author of text is required. 🧟"],
@@ -53,3 +53,8 @@ const bookSchema = new mongoose.Schema({
     default: Date.now,
   },
 });
+
+// Exports
+module.exports = {
+    Book,
+}
