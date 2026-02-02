@@ -7,6 +7,7 @@ const { bookRouter } = require("./routes/bookRoutes");
 
 const app = express();
 
+
 // Middleware to parse JSON bodies
 app.use(express.json());
 
@@ -17,13 +18,14 @@ app.use("/api/books", bookRouter);
  * Asynchronously connects to MongoDB using Mongoose.
  * @returns {Promise<void>}
  */
+
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI);
     console.log("🥳 MongoDB Connected!");
   } catch (error) {
     console.error("😔 Database connection error:", error);
-    // Exit process (with failure)
+    // Exit process with failure (1)
     process.exit(1);
   }
 };
